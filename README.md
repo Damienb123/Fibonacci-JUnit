@@ -8,8 +8,7 @@
     - FibonacciTest.java
 3. [Setup Instructions](#Setup-Instructions)
 4. [Usage Instructions](#Usage-Instructions)
-5. [Example Output](#Example-Output)
-6. [Conclusion](#Conclusion)
+5. [Conclusion](#Conclusion)
 
 ## Overview
 
@@ -129,31 +128,6 @@ public class FibonacciTest {
 2. Open the FibonacciTest.java file to view or edit the JUnit tests.
 3. Run the JUnit tests to validate the functionality of the Fibonacci methods.
 
-## Example Output
-
-Running the JUnit tests will output results similar to the following:
-
-```
-Test Results:
-1. testRecursiveFib6: Passed
-2. testRecursiveFib7: Passed
-3. testFib6: Passed
-4. testFastFibNegative1: Passed
-
-All tests passed successfully.
-```
-
-If any test fails, the output will indicate which test failed and provide details about the failure.
-
-```
-Running Application.FibonacciTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
-
-Results :
-
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
-```
-
 ## Conclusion
 
-The Fibonacci-JUnit project successfully implements both recursive and iterative methods for calculating Fibonacci numbers and includes comprehensive JUnit tests to validate their correctness. The test results demonstrate that both methods function as expected for the given test cases. The iterative method (fastFib) efficiently handles larger inputs, while the recursive method provides a straightforward approach for educational purposes. This project serves as a solid foundation for understanding the implementation and testing of algorithms in Java using JUnit.
+The Fibonacci-JUnit project successfully implements both recursive and iterative methods for calculating Fibonacci numbers and includes comprehensive JUnit tests to validate their correctness. The test results demonstrate that both methods function as expected for the given test cases. The iterative method (fastFib) efficiently handles larger inputs, while the recursive method provides a straightforward approach for educational purposes. it finished after 0.017 seconds, with no errors or failures with 4/4 runs on Eclispse. The Fibonacci Element had 94.3% coverage, 99 instructions are covered, 6 missed Instructions, and total of 105 instructions, Prior to its first test. This project serves as a solid foundation for understanding the implementation and testing of algorithms in Java using JUnit.
